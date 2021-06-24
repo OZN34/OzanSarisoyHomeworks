@@ -1,0 +1,81 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3DFCB039267F766F00612E73 /* Problem 5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Problem 5.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3DFCB042267F7E9E00612E73 /* Problem4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Problem4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3DFCB043267F827F00612E73 /* Problem3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Problem3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3DFCB044267F862700612E73 /* Problem1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Problem1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3DFCB045267F864000612E73 /* Problem2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Problem2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3DFCB030267F657D00612E73 = {
+			isa = PBXGroup;
+			children = (
+				3DFCB044267F862700612E73 /* Problem1.playground */,
+				3DFCB045267F864000612E73 /* Problem2.playground */,
+				3DFCB043267F827F00612E73 /* Problem3.playground */,
+				3DFCB042267F7E9E00612E73 /* Problem4.playground */,
+				3DFCB039267F766F00612E73 /* Problem 5.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		3DFCB031267F657D00612E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 3DFCB034267F657D00612E73 /* Build configuration list for PBXProject "ProjectEulerFirst5Q" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DFCB030267F657D00612E73;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		3DFCB035267F657D00612E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3DFCB036267F657D00612E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DFCB034267F657D00612E73 /* Build configuration list for PBXProject "ProjectEulerFirst5Q" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DFCB035267F657D00612E73 /* Debug */,
+				3DFCB036267F657D00612E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DFCB031267F657D00612E73 /* Project object */;
+}
