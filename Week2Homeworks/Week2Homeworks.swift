@@ -32,7 +32,30 @@ primeNumber(number: 15)
 /*func someFunction<T: SomeClass, U: SomeProtocol>(someT: T, someU: U) {
      
  
+ 
 }*/
+
+func isEqual<T: Equatable> (left: T, right: T)-> Bool {
+    return left == right
+}
+
+struct Contact: Equatable {
+    let name: String
+    let address: String
+
+    init(_ name: String, address: String) {
+        self.name = name
+        self.address = address
+    }
+    static func == (lhs: Contact, rhs: Contact) -> Bool {
+        return lhs.name == rhs.name && lhs.address == rhs.address
+    }
+}
+
+let oldAvm = Contact("Old Cevahir Avm", address: "Şişli Merkez, Şişli, TR 34000")
+let newAvm = Contact("New Cevahir Avm", address: "Alibeyköy Merkez, Eyüpsultan, TR 34000")
+
+print(isEqual(left: oldAvm, right: newAvm))
 
 
 
