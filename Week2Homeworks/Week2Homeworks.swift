@@ -162,7 +162,6 @@ Bu, görünümün tüm alanının doldurulmasını garanti eder ancak sahnenin b
  
  
 Segmented Control value changed başladığında ilk aksiyonu alıyor.
- 
  viewWillAppear Fonksiyonu
  ViewController görünmeden,
  görünümü başlatılmadan hazır hale geliyor,çalışıyor. Ram de tutuluyor. Birden fazla kez çalıştırılabilir. 
