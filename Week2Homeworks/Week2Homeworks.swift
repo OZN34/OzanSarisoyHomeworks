@@ -104,7 +104,8 @@ print(n)
  
  Class üst sınıflarda yazılıp, alt sınıflara override olabiliyor. Fakat static alt sınıflarda override olamıyor yani final yapıdadır.
 
- Override kavramı ise alt sınıflar bir üst ata sınıfının tüm özelliklerini taşır. Bu ata sınıf (SuperClass), alt sınıfa tüm özelliklerini taşıtabilir. Bazı durumlar da alt sınıfın bir özelliğini değiştirebilme ya da alt sınıf için özel hale getirme ihtiyacı olabilir. Bu duruma override denir.
+ Override kavramı ise alt sınıflar bir üst ata sınıfının tüm özelliklerini taşır. Bu ata sınıf (SuperClass), alt sınıfa tüm özelliklerini taşıtabilir. 
+Bazı durumlar da alt sınıfın bir özelliğini değiştirebilme ya da alt sınıf için özel hale getirme ihtiyacı olabilir. Bu duruma override denir.
  
  */
 
@@ -132,9 +133,11 @@ class SubExClass: ExClass {
 
 fill = 0 /* Scale the SKScene to fill the entire SKView. */
 
-aspectFill = 1 /* Scale the SKScene to fill the SKView while preserving the scene's aspect ratio. Some cropping may occur if the view has a different aspect ratio. */
+aspectFill = 1 /* Scale the SKScene to fill the SKView while preserving the scene's aspect ratio. 
+Some cropping may occur if the view has a different aspect ratio. */
 
-aspectFit = 2 /* Scale the SKScene to fit within the SKView while preserving the scene's aspect ratio. Some letterboxing may occur if the view has a different aspect ratio. */
+aspectFit = 2 /* Scale the SKScene to fit within the SKView while preserving the scene's aspect ratio. 
+Some letterboxing may occur if the view has a different aspect ratio. */
 
 resizeFill = 3 /* Modify the SKScene's actual size to exactly match the SKView. */
 
@@ -159,9 +162,8 @@ Bu, görünümün tüm alanının doldurulmasını garanti eder ancak sahnenin b
  
  
 Segmented Control value changed başladığında ilk aksiyonu alıyor.
- 
  viewWillAppear Fonksiyonu
  ViewController görünmeden,
- görünümü başlatılmadan hazır hale geliyor,çalışıyor. Ram de tutuluyor. Birden fazla kez çalıştırılabilir. Kullanıcı arayüz güncellemelerinde sık sık kullanılıyor.
-
+ görünümü başlatılmadan hazır hale geliyor,çalışıyor. Ram de tutuluyor. Birden fazla kez çalıştırılabilir. 
+ Kullanıcı arayüz güncellemelerinde sık sık kullanılıyor.
  ViewController ile ilişkilidir. Bir yaşam döngüsü dahilindedir.
